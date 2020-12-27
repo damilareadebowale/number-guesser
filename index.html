@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <title>Number Guesser</title>
+</head>
+<body>
+    <div class="grid-x grid-padding-x align-center text-center">
+        <div>
+            <h1>Number Guesser</h1>
+            <div id="game" >
+                <p>Guess a number between <span class="min-num"></span> and <span class="max-num"></span></p>
+                <input type="text" id="guess-input" placeholder="Enter your guess">
+                <input type="submit" value="Submit" id="guess-button">
+                <p class="output"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
